@@ -1,0 +1,130 @@
+body{
+ margin: auto;
+ width: 105vh;
+}
+#text{
+   background-color: rgb(180, 104, 104);
+   padding-bottom: 15px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    padding-top: 12px;
+    -webkit-user-select: none;
+    color: rgb(255, 231, 231);
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    background-color: rgb(187, 125, 125);
+    margin: auto;
+}
+img{
+    width: 200px;
+    margin: auto;
+    border: rgb(206, 65, 0) solid 2px;
+    cursor: pointer;
+    background-color: rgb(211, 89, 89);
+    border-radius: 15px;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+img:hover{
+    background-color: rgb(209, 102, 102);
+}
+img:active{
+    border-width: 2.3px;
+    box-sizing: border-box;
+}
+#my, #comp, a{
+    display: flex;
+    width: 100%;
+    background-color: rgb(187, 125, 125);
+    margin: auto;
+}
+#msg{
+    text-align: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 760px){
+    body{
+        width: inherit;
+        margin: inherit;
+    }
+    .container, #text{
+       width: 100%;
+    }
+    img{
+        width: 230px;
+    }
+    #msg{
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 710px){
+    body{
+        width: inherit;
+        margin: inherit;
+    }
+    .container, #text{
+       width: 100%;
+    }
+    img{
+        width: 190px;
+    }
+    #msg{
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 660px){
+    body{
+        margin: inherit;
+        width: 100%;
+    }
+    .container, #text{
+      width: 100%;
+    }
+    img{
+        width: 190px;
+    }
+    #msg{
+        margin: initial;
+        margin-top: 280px;
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 600px){
+    body{
+        width: inherit;
+        margin: inherit;
+    }
+    .container, #text{
+       width: 100%;
+    }
+    img{
+        width: 120px;
+    }
+    #msg{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 415px){
+    body{
+        margin: inherit;
+        width: 100%;
+    }
+    .container, #text{
+       width: 100%;
+    }
+    img{
+        width: 80px;
+    }
+    #msg{
+        margin: initial;
+        margin-top: 62%;
+        font-size: 10px;
+    }
+}
