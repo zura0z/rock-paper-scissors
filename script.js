@@ -49,9 +49,9 @@ function front(myImage, compImage, finallMsg){
     var msg = document.createElement('div');
     msg.setAttribute('id', 'msg');
 
-    myDiv.innerHTML = '<a href="main.html">'+"<img src='"+ imgDatabase[myImage] + "'>" +'</a>';
+    myDiv.innerHTML = '<a href="index.html">'+"<img src='"+ imgDatabase[myImage] + "'>" +'</a>';
     msg.innerHTML = "<h1>"+ finallMsg['message']+"</h1>";
-    compDiv.innerHTML = '<a href="main.html">'+"<img src='"+ imgDatabase[compImage] + "'>"+'</a>';
+    compDiv.innerHTML = '<a href="index.html">'+"<img src='"+ imgDatabase[compImage] + "'>"+'</a>';
 
     document.getElementById('omg').appendChild(myDiv);
     document.getElementById('omg').appendChild(msg);
